@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="180dp"
+        android:paddingTop="10dp"
+        android:text="@string/opt_record_title"
+        android:textColor="@color/one_color"
+        android:textSize="24sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/one_color" />
+
+    <TextView
+        android:id="@+id/optRecordEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_selector"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="180dp"
+        android:paddingTop="10dp"
+        android:text="@string/opt_record_edit"
+        android:textColor="#777"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"
+        android:background="#777" />
+
+    <TextView
+        android:id="@+id/optRecordDel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/setting_selector"
+        android:paddingBottom="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="180dp"
+        android:paddingTop="10dp"
+        android:text="@string/opt_record_del"
+        android:textColor="#777"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.1dp"
+        android:background="#777" />
+
+</LinearLayout>

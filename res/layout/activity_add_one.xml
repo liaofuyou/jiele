@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AddOneActivity" >
+
+    <RelativeLayout
+        android:id="@+id/aoTitleRl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/one_color" >
+
+        <TextView
+            android:id="@+id/aoBackTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15sp"
+            android:text="@string/addone_back"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/aoShowNumTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/aoTitleRl"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/addone_defuatNum"
+        android:textColor="#111"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <GridView
+            android:id="@+id/aoKeybordsGv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#373536"
+            android:numColumns="3"
+            android:padding="0dp" >
+        </GridView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:background="@color/one_color"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/aoDelBtn"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/addone_btn_selector2"
+                android:gravity="center"
+                android:text="@string/addone_del"
+                android:textColor="#fff"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/aoGo1"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/addone_btn_selector2"
+                android:gravity="center"
+                android:text="@string/addone_go1"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/aoGo2"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@drawable/addone_btn_selector2"
+                android:gravity="center"
+                android:text="@string/addone_go2"
+                android:textColor="#fff"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

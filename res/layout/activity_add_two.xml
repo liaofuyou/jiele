@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AddTwoActivity" >
+
+    <RelativeLayout
+        android:id="@+id/atTitleRl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/one_color" >
+
+        <TextView
+            android:id="@+id/atBackTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15sp"
+            android:text="@string/addtwo_back"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/atNumTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/atTitleRl"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/one_color"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/atWhoEt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/atNumTv"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:hint="@string/addtwo_et1"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/atWhoLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/atWhoEt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#666" />
+
+    <EditText
+        android:id="@+id/atDescEt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/atWhoLine"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:hint="@string/addtwo_et2"
+        android:singleLine="true"
+        android:textSize="14sp" />
+
+    <View
+        android:id="@+id/atDescLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_below="@id/atDescEt"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#666" />
+
+    <Button
+        android:id="@+id/atDoneBtn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/atDescLine"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/addtwo_done_selector"
+        android:gravity="center"
+        android:text="@string/addtwo_done"
+        android:textColor="#fff"
+        android:textSize="14sp" />
+
+</RelativeLayout>

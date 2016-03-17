@@ -1,0 +1,9 @@
+<Button xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/addone_btn_selector1"
+    android:gravity="center"
+    android:padding="14dp"
+    android:textColor="#b3b3b3"
+    android:textSize="36sp" />

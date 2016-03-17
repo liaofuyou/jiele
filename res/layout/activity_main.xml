@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".MainActivity" >
+
+    <RelativeLayout
+        android:id="@+id/mTitleRl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/one_color" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/app_name"
+            android:textColor="#fff"
+            android:textSize="24sp" />
+
+        <ImageView
+            android:id="@+id/mSettingIv"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/addone_btn_selector2"
+            android:contentDescription="@string/app_name"
+            android:scaleType="center"
+            android:src="@drawable/tag_more" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/mRecordLv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@id/mTitleRl"
+        android:divider="#eaeaea"
+        android:dividerHeight="0.1dp"
+        android:listSelector="@drawable/setting_selector" />
+
+    <RelativeLayout
+        android:id="@+id/mSettingRl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@id/mRecordLv"
+        android:visibility="gone" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <LinearLayout
+            android:id="@+id/mSettingLl"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:background="#eeeeee"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/mAboutTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/setting_selector"
+                android:gravity="center"
+                android:padding="12dp"
+                android:text="@string/main_setting_about"
+                android:textColor="#111"
+                android:textSize="16sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.1dp"
+                android:background="#fff" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/mNullTishiIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mAddBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/null_tishi"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/mAddBtn"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-10dp"
+        android:background="@drawable/main_add_selector"
+        android:gravity="center"
+        android:text="@string/main_add"
+        android:textColor="#fff"
+        android:textSize="50sp" />
+
+</RelativeLayout>

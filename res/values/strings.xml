@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">借了</string>
+    <string name="main_more">更多</string>
+    <string name="main_add">+</string>
+    <string name="main_setting_about">关于APP</string>
+    <string name="main_setting_author">开发者</string>
+    <string name="addone_back">取消</string>
+    <string name="addone_defuatNum">￥0</string>
+    <string name="addone_del">del</string>
+    <string name="addone_go1">借出</string>
+    <string name="addone_go2">借入</string>
+    <string name="addtwo_back">上一步</string>
+    <string name="addtwo_et1">借给谁？</string>
+    <string name="addtwo_et2">备注</string>
+    <string name="addtwo_et3">日期</string>
+    <string name="addtwo_done">√ 完成</string>
+    <string name="slogan">有些事，别忘了!</string>
+    <string name="about_back">返回</string>
+    <string name="about_desc">　　在生活中我们可能没有记账的习惯。但是有一种情况除外，那就是借钱和欠钱。</string>
+    <string name="author_desc">　　Hello 亲,灰常感谢使用我开发的App，希望它能给你的生活带来一丢丢方便。如果App有什么用着不称手的地方，欢迎来新浪微博 @廖付有 私信我哦！</string>
+    <string name="author_me">——付有</string>
+    <string name="opt_record_title">操作</string>
+    <string name="opt_record_edit">编辑</string>
+    <string name="opt_record_del">删除</string>
+
+</resources>

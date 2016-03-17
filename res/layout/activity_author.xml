@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".AuthorActivity" >
+
+    <RelativeLayout
+        android:id="@+id/auTitleRl"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/one_color" >
+
+        <TextView
+            android:id="@+id/auBackTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15sp"
+            android:text="@string/about_back"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/auMeIv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/auTitleRl"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/wo" />
+
+    <TextView
+        android:id="@+id/author_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/auMeIv"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="@string/author_desc"
+        android:textColor="#111"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/about_verison"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/author_desc"
+        android:layout_marginTop="5dp"
+        android:paddingRight="30dp"
+        android:text="@string/author_me"
+        android:textColor="#111"
+        android:textSize="14sp" />
+
+</RelativeLayout>

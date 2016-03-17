@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="one_color">#41c1c2</color>
+    <color name="two_color">#ff4b3c</color>
+    <color name="keybord_pressed1">#413f3f</color>
+    <color name="keybord_pressed2">#3db5b5</color>
+    <color name="f2_color">#f2f2f2</color>
+
+</resources>
